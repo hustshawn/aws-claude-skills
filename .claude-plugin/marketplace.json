@@ -1,0 +1,29 @@
+{
+  "name": "aws-claude-skills",
+  "description": "AWS Claude Skills - Plugins for AWS expertise using AWS Knowledge MCP server",
+  "owner": {
+    "name": "Shawn Zhang"
+  },
+  "plugins": [
+    {
+      "name": "aws-expert",
+      "description": "AWS specialist plugin that answers AWS-related questions using the AWS Knowledge MCP server",
+      "version": "1.0.0",
+      "author": {
+        "name": "Shawn Zhang"
+      },
+      "source": "./plugins/aws-expert",
+      "category": "development"
+    },
+    {
+      "name": "serverless-dev",
+      "description": "Build production-ready serverless applications on AWS using AWS SAM, Lambda, API Gateway, EventBridge, DynamoDB, and other serverless services",
+      "version": "1.0.0",
+      "author": {
+        "name": "Shawn Zhang"
+      },
+      "source": "./plugins/serverless-dev",
+      "category": "development"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "aws-expert",
+  "version": "1.0.0",
+  "description": "AWS specialist plugin that answers AWS-related questions, checks AWS documentation via AWS Knowledge MCP server, and evaluates solution feasibility",
+  "author": {
+    "name": "Shawn Zhang"
+  },
+  "homepage": "https://github.com/hustshawn/aws-claude-skills",
+  "repository": "https://github.com/hustshawn/aws-claude-skills",
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "cloud",
+    "documentation",
+    "best-practices",
+    "well-architected",
+    "regional-availability",
+    "troubleshooting",
+    "solutions-architect"
+  ],
+  "mcpServers": "./.mcp.json"
+}
