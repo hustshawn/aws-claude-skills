@@ -33,11 +33,7 @@ AWS specialist plugin providing expert-level AWS guidance using the AWS Knowledg
 - **Best Practices** - Get AWS Well-Architected Framework recommendations
 - **Troubleshooting** - Debug AWS issues with documentation-backed solutions
 
-**Usage:**
-```
-@"aws-expert:aws-knowledge (agent)" Which regions support x8g EC2 instance types?
-@"aws-expert:aws-knowledge (agent)" What are S3 bucket security best practices?
-```
+For detailed usage instructions, see [plugins/aws-expert/](./plugins/aws-expert/)
 
 ### serverless-dev
 
@@ -58,13 +54,7 @@ Build production-ready serverless applications on AWS using AWS SAM, Lambda, API
 - **Security & IAM** - Least privilege policies and secrets management
 - **Performance** - Cold start reduction, memory tuning, cost optimization
 
-**Usage:**
-```
-Create a serverless API with Python Lambda and DynamoDB
-Add an EventBridge rule that triggers a Lambda function when orders are placed
-Set up API Gateway response streaming for this Lambda function
-Build and deploy this application using SAM
-```
+For detailed usage instructions, see [plugins/serverless-dev/](./plugins/serverless-dev/)
 
 ## Requirements
 
